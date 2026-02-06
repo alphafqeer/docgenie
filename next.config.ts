@@ -7,11 +7,7 @@ const nextConfig: NextConfig = {
     "*.replit.dev",
     "*.sisko.replit.dev",
   ],
-
-  images: {
-    unoptimized: true,
-  },
-
+  images: { unoptimized: true },
   trailingSlash: true,
 };
 
