@@ -2,12 +2,12 @@ import type { Metadata, Viewport } from "next";
 import Link from "next/link";
 import "./globals.css";
 
-import { SubscriptionProvider } from "components/SubscriptionContext";
-import { EntitlementProvider } from "components/EntitlementContext";
-import UpgradeModal from "components/UpgradeModal";
-import BottomNav from "components/BottomNav";
-import FloatingActionButton from "components/FloatingActionButton";
-import AdBannerWrapper from "components/AdBannerWrapper";
+import { SubscriptionProvider } from "@/components/SubscriptionContext";
+import { EntitlementProvider } from "@/components/EntitlementContext";
+import UpgradeModal from "@/components/UpgradeModal";
+import BottomNav from "@/components/BottomNav";
+import FloatingActionButton from "@/components/FloatingActionButton";
+import AdBannerWrapper from "@/components/AdBannerWrapper";
 
 export const metadata: Metadata = {
   title: "DocGenie - Professional Document Generator",
